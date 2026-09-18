@@ -1,0 +1,23 @@
+{
+  "menu_new": "新建",
+  "menu_newcharacter": "新建角色",
+  "settings_skip_intro_cinematic": "跳过片头动画",
+  "settings_toggleblock": "切换格挡",
+  "settings_altdodge": "替代闪避",
+  "settings_open_radial_wheel": "打开环形菜单",
+  "settings_hotbar1": "快捷栏 1",
+  "settings_hotbar2": "快捷栏 2",
+  "settings_hotbar3": "快捷栏 3",
+  "settings_hotbar4": "快捷栏 4",
+  "settings_hotbar5": "快捷栏 5",
+  "settings_hotbar6": "快捷栏 6",
+  "settings_hotbar7": "快捷栏 7",
+  "settings_hotbar8": "快捷栏 8",
+  "settings_clearkeyinfo": "按 Delete 清除按键绑定",
+  "menu_filter": "搜索",
+  "item_seteffect": "套装效果",
+  "item_durability": "耐久",
+  "hud_tamelove2": "很爱你哦",
+  "hud_tamelove3": "想抱抱你哦",
+  "inventory_stationlevelreq": "制作台等级需求"
+}
