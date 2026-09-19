@@ -7,8 +7,7 @@
     <RootNamespace>ValheimChineseFixes</RootNamespace>
     <AssemblyName>ValheimChineseFixes</AssemblyName>
 
-    <Version>0.0.1</Version>
-    <FileVersion>0.0.1</FileVersion>
+    <Version>0.1.0</Version>
     <Title>Valheim Chinese Fixes</Title>
     <Authors>EwigLicht</Authors>
     <Description>Fixes Chinese localization issues in Valheim.</Description>
