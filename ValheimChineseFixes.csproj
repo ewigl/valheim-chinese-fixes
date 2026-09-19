@@ -37,13 +37,9 @@
   </Target>
 
   <Target Name="CopyToPlugins" AfterTargets="CleanExtraDLLs">
-    <Message Text="正在将模组文件复制到: $(ModInstallPath)" Importance="high" />
-
     <MakeDir Directories="$(ModInstallPath)" />
-
     <Copy SourceFiles="$(TargetDir)$(TargetFileName)" DestinationFolder="$(ModInstallPath)"
       SkipUnchangedFiles="true" />
-
     <Copy SourceFiles="$(MSBuildProjectDirectory)\Fixes\Chinese.json"
       DestinationFolder="$(ModInstallPath)\Fixes\"
       SkipUnchangedFiles="true" />
