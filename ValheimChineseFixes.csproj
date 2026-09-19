@@ -14,9 +14,6 @@
     <Description>Fixes Chinese localization issues in Valheim.</Description>
     <Copyright>Copyright © 2026 EwigLicht. All rights reserved.</Copyright>
 
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-
     <DebugType>none</DebugType>
     <DebugSymbols>false</DebugSymbols>
 
