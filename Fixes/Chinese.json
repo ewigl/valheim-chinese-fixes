@@ -53,6 +53,8 @@
   "settings_hotbar7": "快捷栏 7",
   "settings_hotbar8": "快捷栏 8",
   "settings_open_radial_wheel": "打开环形菜单",
+  "settings_radial_small_edge": "小（位于边缘）",
+  "settings_radialsize": "环形菜单大小",
   "settings_skip_intro_cinematic": "跳过片头动画",
   "settings_toggleblock": "切换格挡",
   "skill_blocking_description": "用武器或盾牌格挡时所吸收的伤害",
