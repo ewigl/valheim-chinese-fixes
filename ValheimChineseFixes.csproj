@@ -26,7 +26,6 @@
 
   <ItemGroup>
     <PackageReference Include="JotunnLib" Version="2.30.2" />
-    <PackageReference Include="Newtonsoft.Json" Version="14.0.1-beta2" />
   </ItemGroup>
 
   <Target Name="CleanExtraDLLs" AfterTargets="Build">
