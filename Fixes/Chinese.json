@@ -1,4 +1,5 @@
 {
+  "achievements_permanently_cheated_bypass": "即使使用过开发者命令，该角色成就系统也已起用。",
   "base_item_modifier": "使用基地建设工具时的耐力消耗",
   "dream_random12": "你睡得断断续续，梦境中焦躁不安，噩梦沉甸甸地压在胸口。当清晨来临时，你如释重负地迎接着它。",
   "dream_random14": "你梦见你正在与你的伙伴一起狩猎，翻过青葱的山脉，穿越迷雾笼罩的谷地。在你前面，你的猎物被绊倒了，你一跃而上，一口咬住鲜活的猎物，顿时鲜血四溅。\n\n当你醒来时，血腥地味道还留在嘴里。",
@@ -28,7 +29,6 @@
   "item_seteffect": "套装效果",
   "item_silver_description": "一锭可供制作的纯银。",
   "item_staminahold": "持续耐力消耗",
-  
   "item_sword_niedhogg_blood_description": "如果你流血了，你的敌人也必定会流血。",
   "item_tin_description": "一锭可供制作的纯锡。",
   "item_torch_description": "发出明亮温暖的光芒，驱散黑暗。",
@@ -49,9 +49,11 @@
   "msg_missingstation": "缺少所需制作台",
   "piece_woodwallroof_upsidedown": "木墙 26° (倒置)",
   "piece_woodwallroof45_upsidedown": "木墙 45° (倒置)",
+  "ps_settings_controller_enable_motion_sensor": "启用体感控制",
   "se_burning_name": "燃烧",
   "se_corpserun_tooltip": "你可以跑得更久并且受到的物理伤害大大减少。",
   "se_eikthyr_tooltip": "雄鹿的优雅之力在你体内流淌。无论在陆地还是水中，你的移动能力都获得了提升。",
+  "se_fader_tooltip": "翡翠烈焰永不息灭。纵使身处火海，你亦当坚守阵地，并利用战斗给予你的一切契机。",
   "se_freezing_repeat": "你快要冻僵了！",
   "se_freezing_start": "你快要冻僵了！",
   "se_frost_tooltip": "你因体温过低感到痛苦。",
@@ -73,7 +75,6 @@
   "settings_buildprev": "上一建造菜单/切换吸附",
   "settings_radial_small_edge": "小（位于边缘）",
   "settings_radialsize": "环形菜单大小",
-  "skill_blocking_description": "用武器或盾牌格挡时所吸收的伤害",
   "skill_bows_description": "弓箭伤害",
   "skill_cooking_description": "烹饪速度和获得额外产出的几率",
   "skill_crafting_description": "制作速度和耐力消耗",
