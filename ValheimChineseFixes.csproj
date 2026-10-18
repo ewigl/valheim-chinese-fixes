@@ -19,7 +19,9 @@
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
     <AllowedReferenceRelatedFileExtensions>none</AllowedReferenceRelatedFileExtensions>
 
-    <ModInstallPath>E:\Games\Steam\steamapps\common\Valheim\BepInEx\plugins\ValheimChineseFixes\</ModInstallPath>
+    <GameInstallPath>E:\Games\Steam\steamapps\common\Valheim\</GameInstallPath>
+    <ModInstallPath>$(GameInstallPath)\BepInEx\plugins\ValheimChineseFixes\</ModInstallPath>
+    <PackageInstallPath>$(MSBuildProjectDirectory)\package\BepInEx\plugins\ValheimChineseFixes\</PackageInstallPath>
 
     <NoWarn>$(NoWarn);MSB3245</NoWarn>
   </PropertyGroup>
@@ -39,8 +41,12 @@
     <MakeDir Directories="$(ModInstallPath)" />
     <Copy SourceFiles="$(TargetDir)$(TargetFileName)" DestinationFolder="$(ModInstallPath)"
       SkipUnchangedFiles="true" />
+    <Copy SourceFiles="$(TargetDir)$(TargetFileName)" DestinationFolder="$(PackageInstallPath)"
+      SkipUnchangedFiles="true" />
     <Copy SourceFiles="$(MSBuildProjectDirectory)\Fixes\Chinese.json"
       DestinationFolder="$(ModInstallPath)\Fixes\" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="$(MSBuildProjectDirectory)\Fixes\Chinese.json"
+      DestinationFolder="$(PackageInstallPath)\Fixes\" SkipUnchangedFiles="true" />
   </Target>
 
 </Project>
