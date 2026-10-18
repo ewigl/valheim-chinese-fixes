@@ -48,6 +48,7 @@
   "piece_woodwallroof_upsidedown": "木墙 26° (倒置)",
   "piece_woodwallroof45_upsidedown": "木墙 45° (倒置)",
   "se_burning_name": "燃烧",
+  "se_corpserun_tooltip": "你可以跑得更久并且受到的物理伤害大大减少。",
   "se_eikthyr_tooltip": "雄鹿的优雅之力在你体内流淌。无论在陆地还是水中，你的移动能力都获得了提升。",
   "se_freezing_repeat": "你快要冻僵了！",
   "se_freezing_start": "你快要冻僵了！",
