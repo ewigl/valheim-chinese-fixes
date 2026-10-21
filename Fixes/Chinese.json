@@ -124,6 +124,8 @@
   "piece_incinerator_empty": "索尔感到不悦",
   "piece_incinerator_fail": "湮灭者正在使用中",
   "piece_pulllever": "拉动拉杆",
+  "piece_treasure_pile": "金币堆",
+  "piece_treasure_stack": "金币叠",
   "piece_woodwallroof_upsidedown": "木墙 26° (倒置)",
   "piece_woodwallroof45_upsidedown": "木墙 45° (倒置)",
   "ps_settings_controller_enable_motion_sensor": "启用体感控制",
