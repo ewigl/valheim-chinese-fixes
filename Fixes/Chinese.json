@@ -91,6 +91,7 @@
   "item_torch_description": "发出明亮温暖的光芒，驱散黑暗。",
   "item_trophy_abomination_description": "一团错综缠绕的树根与树皮。",
   "item_trophy_boar_lore": "这个鬓猪战利品在任何房间里都会是一个不错的装饰品。",
+  "loading_savenotification": "此游戏有自动保存功能。当你看到自动保存图标时，请不要关闭游戏或主机。",
   "loadscreen_tip01": "别忘了升级你的制作台、武器和护甲。",
   "loadscreen_tip05": "敌人不会在玩家修建的建筑物附近有复活点（如：制作台，营火等等）。",
   "loadscreen_tip17": "当你处于休息后的状态时，你的生命值和耐力值恢复速度会加快。",
@@ -186,5 +187,6 @@
   "tag_stacks": "堆叠",
   "tutorial_ore_text": "原矿石需要经过<color=yellow>冶炼炉</color>的提纯后才可以开始在<color=yellow>熔炉</color>锻造。 \n\n你需要<color=yellow>焰灵之核</color>才可以建造冶炼炉。 去黑暗的地下城搜寻吧。",
   "tutorial_stemple1_text": "我是福金，我被派来做你的向导。 \n\n这些包围着你的巨石是献祭石。 \n它们代表着被遗忘者们，你必须要击杀他们以获得升入瓦尔哈拉的机会。",
-  "tutorial_stemple2_text": "奥丁把这些魔石撒落在了这篇土地上。 作为指南石指引着召唤被遗忘者们的祭坛的前路。 \n\n如果靠近观察，这块指南石会显示召唤赤血灵鹿的位置，你的<color=yellow>首个猎物</color>。 他是一头强大的神兽，在尝试击败他之前你必须充分武装好你自己。"
+  "tutorial_stemple2_text": "奥丁把这些魔石撒落在了这篇土地上。 作为指南石指引着召唤被遗忘者们的祭坛的前路。 \n\n如果靠近观察，这块指南石会显示召唤赤血灵鹿的位置，你的<color=yellow>首个猎物</color>。 他是一头强大的神兽，在尝试击败他之前你必须充分武装好你自己。",
+  "xbox_loading_savenotification": "此游戏有自动保存功能。当你看到自动保存图标时，请不要关闭游戏或主机。"
 }
