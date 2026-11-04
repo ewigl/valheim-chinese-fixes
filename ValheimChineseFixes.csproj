@@ -7,7 +7,7 @@
     <RootNamespace>ValheimChineseFixes</RootNamespace>
     <AssemblyName>ValheimChineseFixes</AssemblyName>
 
-    <Version>1.0.5</Version>
+    <Version>1.0.10</Version>
     <Title>Valheim Chinese Fixes</Title>
     <Authors>EwigLicht</Authors>
     <Description>Fixes Chinese localization issues in Valheim.</Description>
@@ -56,10 +56,11 @@
     <MakeDir Directories="$(ModInstallPath)" />
     <Copy SourceFiles="$(TargetDir)$(TargetFileName)" DestinationFolder="$(ModInstallPath)"
       SkipUnchangedFiles="true" />
-    <Copy SourceFiles="$(TargetDir)$(TargetFileName)" DestinationFolder="$(PackageInstallPath)"
-      SkipUnchangedFiles="true" />
     <Copy SourceFiles="$(MSBuildProjectDirectory)\Fixes\Chinese.json"
       DestinationFolder="$(ModInstallPath)\Fixes\" SkipUnchangedFiles="true" />
+
+    <Copy SourceFiles="$(TargetDir)$(TargetFileName)" DestinationFolder="$(PackageInstallPath)"
+      SkipUnchangedFiles="true" />
     <Copy SourceFiles="$(MSBuildProjectDirectory)\Fixes\Chinese.json"
       DestinationFolder="$(PackageInstallPath)\Fixes\" SkipUnchangedFiles="true" />
   </Target>
