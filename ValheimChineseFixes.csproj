@@ -24,22 +24,24 @@
     <PackageInstallPath>$(MSBuildProjectDirectory)\package\BepInEx\plugins\ValheimChineseFixes\</PackageInstallPath>
   </PropertyGroup>
 
+  <ItemDefinitionGroup>
+    <Reference>
+      <Private>false</Private>
+    </Reference>
+  </ItemDefinitionGroup>
+
   <ItemGroup>
     <Reference Include="BepInEx">
       <HintPath>$(GameInstallPath)\BepInEx\core\BepInEx.dll</HintPath>
-      <Private>false</Private>
     </Reference>
     <Reference Include="Jotunn">
       <HintPath>$(GameInstallPath)\BepInEx\plugins\Jotunn.dll</HintPath>
-      <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>$(GameInstallPath)\valheim_Data\Managed\UnityEngine.dll</HintPath>
-      <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>$(GameInstallPath)\valheim_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
-      <Private>false</Private>
     </Reference>
   </ItemGroup>
 
