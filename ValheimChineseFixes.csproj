@@ -22,8 +22,6 @@
     <GameInstallPath>E:\Games\Steam\steamapps\common\Valheim\</GameInstallPath>
     <ModInstallPath>$(GameInstallPath)\BepInEx\plugins\ValheimChineseFixes\</ModInstallPath>
     <PackageInstallPath>$(MSBuildProjectDirectory)\package\BepInEx\plugins\ValheimChineseFixes\</PackageInstallPath>
-
-    <NoWarn>$(NoWarn);MSB3245</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
