@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>net48</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <LangVersion>10.0</LangVersion>
     <RootNamespace>ValheimChineseFixes</RootNamespace>
     <AssemblyName>ValheimChineseFixes</AssemblyName>
@@ -27,7 +27,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="JotunnLib" Version="2.30.2" />
+    <Reference Include="BepInEx">
+      <HintPath>$(GameInstallPath)\BepInEx\core\BepInEx.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Jotunn">
+      <HintPath>$(GameInstallPath)\BepInEx\plugins\Jotunn.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(GameInstallPath)\valheim_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(GameInstallPath)\valheim_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
   </ItemGroup>
 
   <Target Name="CleanExtraDLLs" AfterTargets="Build">
