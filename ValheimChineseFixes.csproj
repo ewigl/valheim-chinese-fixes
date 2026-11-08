@@ -35,7 +35,7 @@
       <HintPath>$(GameInstallPath)\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="Jotunn">
-      <HintPath>$(GameInstallPath)\BepInEx\plugins\Jotunn.dll</HintPath>
+      <HintPath>$(GameInstallPath)\BepInEx\plugins\Dependencies\Jotunn.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>$(GameInstallPath)\valheim_Data\Managed\UnityEngine.dll</HintPath>
