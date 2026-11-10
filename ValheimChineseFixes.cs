@@ -11,7 +11,7 @@ namespace ValheimChineseFixes
     {
         public const string PluginGUID = "com.ewigl.ValheimChineseFixes";
         public const string PluginName = "Valheim Chinese Fixes";
-        public const string PluginVersion = "1.0.5";
+        public const string PluginVersion = "1.0.11";
         private CustomLocalization localization;
         private const string langCode = "Chinese";
 
