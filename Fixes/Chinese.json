@@ -1,4 +1,5 @@
 {
+  "ach_grindcomfort_desc": "舒适程度达到 20 。",
   "achievements_permanently_cheated_bypass": "即使使用过开发者命令，该角色成就系统也已起用。",
   "base_item_modifier": "使用基地建设工具时的耐力消耗",
   "customization_beard01": "威严",
@@ -222,6 +223,7 @@
   "skill_swords_description": "剑类武器的伤害",
   "skill_unarmed_description": "徒手攻击时造成的伤害",
   "skill_woodcutting_description": "斧头伐木时的伤害",
+  "stat_MaxComfort": "舒适程度达到最高等级",
   "tag_architecture": "结构",
   "tag_doors": "门窗",
   "tag_lighting": "光源",
