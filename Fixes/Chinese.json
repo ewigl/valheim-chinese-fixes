@@ -1,6 +1,9 @@
 {
+  "achievements_dropped_cheated_item": "物品栏中已无作弊物品，成就进度已重新启用。",
+  "ach_grindsailhelm_desc": "掌舵航行距离绕世界两圈。",
+  "ach_allbosses_desc": "在任意难度下击杀所有 Boss。",
   "ach_grindcomfort_desc": "舒适程度达到 20 。",
-  "achievements_permanently_cheated_bypass": "即使使用过开发者命令，该角色成就系统也已起用。",
+  "achievements_permanently_cheated_bypass": "即使使用开发者命令，该角色的成就系统也会启用。",
   "base_item_modifier": "使用基地建设工具时的耐力消耗",
   "customization_beard01": "威严",
   "customization_beard02": "双辫",
